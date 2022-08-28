@@ -37,8 +37,9 @@ git push
 # Advanced Commands
 
 git branch
-        git branch branchname - To create new branch
-        git checkout branchname - to checkout to the branch name given
+
+        git branch branchname       - To create new branch
+        git checkout branchname     - to checkout to the branch name given
 
 
 git checkout
@@ -46,10 +47,12 @@ git checkout
 
 git merge
         go to the destination branch first using command git checkout
+        
         git merge sourcebranchname destinationbranchname
 
 git rebase
         we dont want to the destination branch
+        
         git rebase sourcebranchname destinationbranchname
 
 git revert
