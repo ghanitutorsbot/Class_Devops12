@@ -13,10 +13,14 @@ DEVOPS
 2. GIT-SCM
         GIT commands        
         GIT Authentication
-    3. JAVA
+------------------------------------------------------------------------        
+3. JAVA
+        Installation
+
 4. MAVEN
         Installation
         maven commands
+        JUNIT Test
     
 5. TOMCAT
         Installation
@@ -25,7 +29,7 @@ DEVOPS
 6. SONARQUBE
 
         Installation
-        
+-------------------------------------------------------------------------
 
 7. CI/CD - JENKINS
         Installation

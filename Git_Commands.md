@@ -1,3 +1,8 @@
+Installation:
+
+https://phoenixnap.com/kb/how-to-install-git-windows
+
+
 # Basic commands
 git clone
     Clone entire repository to local
@@ -22,7 +27,7 @@ git pull
         
         get the latest commit from remote to local
         git pull origin master - to pull master file
-
+-------------------------------------------------------------------------
 git init
         Initialize the
 

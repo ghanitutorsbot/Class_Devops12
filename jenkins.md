@@ -2,6 +2,8 @@
 
 Installation
 
+https://phoenixnap.com/kb/install-jenkins-on-windows
+
 Manage Jenkins
         Manage plugins
             GIT plugin
