@@ -27,6 +27,7 @@ git pull
         
         get the latest commit from remote to local
         git pull origin master - to pull master file
+
 -------------------------------------------------------------------------
 git init
         Initialize the
@@ -63,7 +64,8 @@ git rebase
 git revert
 
 git reset
-
+        git reset --soft commitid
+        git reset --hard commitid
 
 #Extra commands
 
@@ -72,5 +74,6 @@ git --help
 git --version
 git log
     Display the commit history
+git diff commitid1 commitid2
 
 
