@@ -86,11 +86,7 @@ pipeline {
                 bat 'mvn verify'
             }
         }
-        stage('SAST') {
-            steps {
-                bat 'mvn sonar:sonar'
-            }
-        }
+
         stage('Deploy') {
             steps {
                 deploy adapters: [tomcat9(credentialsId: '752d6505-a033-4979-869c-5ec7d1312eb3', path: '', url: 'http://localhost:8081/')], contextPath: 'declarativewar', war: '**/*.war'
@@ -115,11 +111,7 @@ node {
         bat 'mvn verify'
     }
     
-    stage("SAST")
-    {
-        bat 'mvn sonar:sonar'
-        
-    }
+
     
     stage("Deploy")
     {
@@ -131,3 +123,49 @@ node {
 }
 
 -------------------------------------------------------------------------------------------
+
+
+
+pipeline {
+    agent any
+    
+    stages {
+        stage ('code') {
+            steps {
+                
+            }
+        }
+        stage ('Build') {
+                steps {
+                
+            }
+            
+        }
+        stage ('Deploy'){
+                steps {
+                
+            }
+            
+        }
+    }
+
+  
+}
+
+---------------------------------------------------------------------------------------
+noce {
+
+    stage ("code")
+    {
+
+    }
+    stage ("build")
+    {
+
+    }
+    stage ("Deploy"){
+
+    }
+}
+
+---------------------------------------------------------------------------------------

@@ -26,12 +26,9 @@ DEVOPS
         Installation
         deploy war/configuration
 
-6. SONARQUBE
-
-        Installation
 -------------------------------------------------------------------------
 
-7. CI/CD - JENKINS
+6. CI/CD - JENKINS
         Installation
         Plugins configuration
 
@@ -40,7 +37,7 @@ DEVOPS
             understand concepts
             scripting 
 
-8. AWS - UBUNTU
+7. AWS - UBUNTU
             create a machine
             installation files
             linux commands 
@@ -53,4 +50,4 @@ DEVOPS
 
 11. KUBERNETES
 
-12. NAGIOS
+
