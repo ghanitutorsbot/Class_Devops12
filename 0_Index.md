@@ -31,17 +31,30 @@ DEVOPS
 6. CI/CD - JENKINS
         Installation
         Plugins configuration
+        Master/Slave
 
         JOBS
             freestyle
             understand concepts
             scripting 
+---------------------------------------------------------------------------
+7. AWS - Ec2 - Elastic Compute Cloud
+            create a Instance
+                Name
+                AMI (Amazon Machine Image)
+                Instance Type - t2.micro
+                KeyPair 
+                Network setting - VPC
+                                - Security Group
+                Storage
 
-7. AWS - UBUNTU
-            create a machine
-            installation files
+            
             linux commands 
+   
+   AWS -    IAM
+   AWS -    S3
 
+   -----------------------------------------------------------------------
 9. DOCKER - UBUNTU
             Installation
             docker commands

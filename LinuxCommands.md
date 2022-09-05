@@ -27,3 +27,12 @@ Basics of VI editor
  :wq - write and quit
  
  :q! - quit without saving
+
+Linux command
+
+ sudo -s  // root user
+ exit
+ cat /etc/os-release
+
+ sudo apt-get install git
+

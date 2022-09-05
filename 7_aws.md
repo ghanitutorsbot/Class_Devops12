@@ -1,6 +1,6 @@
 1. Account creation
-
-2. IAM usdr
+2. ec2 machine  
+2. IAM user
     1. Programattic Access
 
 3. AWS CLI
