@@ -59,7 +59,7 @@ DEVOPS
             Installation
             docker commands
 
-10. TERRAFORM - UBUNTU (AWS)
+10. TERRAFORM - UBUNTU (AWS) - Infrastructure as a code
 
 11. KUBERNETES
 
