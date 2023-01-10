@@ -67,6 +67,12 @@ git reset
         git reset --soft commitid
         git reset --hard commitid
 
+git stash
+
+git fetch
+
+
+
 #Extra commands
 
 git status
@@ -77,3 +83,4 @@ git log
 git diff commitid1 commitid2
 
 
+---------------------------------------------------------------------------------------------------------------

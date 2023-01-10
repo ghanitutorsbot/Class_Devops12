@@ -1,3 +1,10 @@
+Build tools 
+    ant
+    maven
+    gradle
+
+
+
 
 Prerequestie - Need Java
 
@@ -18,7 +25,7 @@ In project maven need pom.xml file to execute
 
 Java code converted to machine code.
 
-Output either as a zip/jar/war/
+Output either as a zip/jar/war/ear
 
 Sample code to download:
 https://github.com/ghanitutorsbot/maven_demo.git
@@ -30,6 +37,7 @@ mvn --version
 -------------------------------------------------------------------------------------------
 
 Maven commands:
+ clean
  initialize
  validate
  compile 
